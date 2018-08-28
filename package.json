@@ -45,6 +45,7 @@
     "tslint": "~5.9.1",
     "phantomjs-prebuilt": "~2.1.16",
     "karma-phantomjs-launcher": "~1.0.4",
+    "karma-junit-reporter": "~1.2.0",
     "typescript": "~2.7.2"
   }
 }
