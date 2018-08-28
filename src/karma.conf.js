@@ -25,12 +25,23 @@ module.exports = function (config) {
     junitReporter    : {
       outputFile: 'test-results.xml'
     },
+    customLaunchers: {
+      ChromeHeadless:  {
+        base: 'Chrome',
+        flags:  [
+          '--headless',
+          '--disable-gpu',
+          '--no-sandbox',
+          '--remote-debugging-port=9222'
+        ],
+      }
+    },
     reporters: ['progress', 'junit', 'kjhtml'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: false,
-    browsers: ['PhantomJS'],
+    browsers: ['ChromeHeadless'],
     singleRun: true
   });
 };
