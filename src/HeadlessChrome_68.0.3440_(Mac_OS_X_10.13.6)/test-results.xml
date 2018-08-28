@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 68.0.3440 (Mac OS X 10.13.6)" package="" timestamp="2018-08-28T04:36:52" id="0" hostname="MacBook-Pro-de-PEYRUSAUBES-RETENGR.local" tests="11" errors="0" failures="0" time="0.302">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/68.0.3440.106 Safari/537.36"/>
+  </properties>
+  <testcase name="CreateAnnonceComponent should create" time="0.13" classname="HeadlessChrome_68_0_3440_(Mac_OS_X_10_13_6).CreateAnnonceComponent"/>
+  <testcase name="LoginComponent should create" time="0.053" classname="HeadlessChrome_68_0_3440_(Mac_OS_X_10_13_6).LoginComponent"/>
+  <testcase name="LoginComponent should connect" time="0.051" classname="HeadlessChrome_68_0_3440_(Mac_OS_X_10_13_6).LoginComponent"/>
+  <testcase name="ConnectedGuard should be completed" time="0.01" classname="HeadlessChrome_68_0_3440_(Mac_OS_X_10_13_6).ConnectedGuard"/>
+  <testcase name="AnnonceService Tests service should be created" time="0.01" classname="HeadlessChrome_68_0_3440_(Mac_OS_X_10_13_6).AnnonceService Tests"/>
+  <testcase name="AnnonceService Tests returns 1 annonce" time="0.016" classname="HeadlessChrome_68_0_3440_(Mac_OS_X_10_13_6).AnnonceService Tests"/>
+  <testcase name="MonService should return a value using simple mock - no injection" time="0.001" classname="HeadlessChrome_68_0_3440_(Mac_OS_X_10_13_6).MonService"/>
+  <testcase name="MonService should return a value using spy - no injection" time="0.002" classname="HeadlessChrome_68_0_3440_(Mac_OS_X_10_13_6).MonService"/>
+  <testcase name="MonService should be created" time="0.011" classname="HeadlessChrome_68_0_3440_(Mac_OS_X_10_13_6).MonService"/>
+  <testcase name="MonService should return correct value using injected mock" time="0.01" classname="HeadlessChrome_68_0_3440_(Mac_OS_X_10_13_6).MonService"/>
+  <testcase name="MonService should return correct value using injected than modified mock" time="0.008" classname="HeadlessChrome_68_0_3440_(Mac_OS_X_10_13_6).MonService"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
