@@ -1,0 +1,5 @@
+<ul class="list-group col-sm-6 col-sm-offset-3">
+  <li *ngFor='let a of annonces | async' class="list-group-item">
+    <app-annonce [annonce]="a"></app-annonce>
+  </li>
+</ul>
